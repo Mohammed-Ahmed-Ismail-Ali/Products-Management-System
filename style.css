@@ -165,6 +165,18 @@ table th {
   }
 
   table {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 281px) {
+  .cruds {
+    width: 235%;
+    margin-left: 10px;
+  }
+
+  table {
     width: 100%;
   }
 }
+
