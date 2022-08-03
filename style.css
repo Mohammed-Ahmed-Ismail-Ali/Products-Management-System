@@ -1,0 +1,157 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #676767;
+}
+
+.cruds {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.head {
+  padding: 12px 30px;
+  background-color: #555;
+  width: 40%;
+  margin: 15px auto;
+  border-radius: 8px;
+  text-transform: uppercase;
+  color: white;
+  line-height: 1.5;
+}
+
+.head svg {
+  width: 25px;
+  cursor: pointer;
+}
+
+#title {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 12px 8px;
+  border-radius: 6px;
+  border: none;
+  background-color: #555;
+  color: white;
+  caret-color: white;
+}
+
+input::placeholder {
+  color: #b8b8b8;
+  transition: 0.25s;
+}
+
+input:focus {
+  outline: none;
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+input:not(#search):focus::placeholder {
+  opacity: 0;
+}
+
+#prices {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+#prices input {
+  width: 20%;
+  margin-bottom: 8px;
+}
+
+#prices small {
+  background-color: rgb(114, 9, 9);
+  padding: 11px;
+  border-radius: 4px;
+  color: white;
+  align-self: flex-start;
+}
+
+#prices small::before {
+  content: "Total: ";
+}
+
+#count,#category {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 12px 0;
+  background-color: #555;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+  background-color: rgb(38, 150, 131);
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+button:hover {
+  letter-spacing: 1.2px;
+  background-color: rgb(54, 182, 160);;
+}
+
+#create {
+  border-radius: 15px;
+}
+
+#search {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.search-btns {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-btns button {
+  width: 48%;
+  border-radius: 15px;
+}
+
+#delete-all {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  color: white;
+}
+
+table th {
+  text-transform: uppercase;
+}
+
+#update,
+#delete {
+  padding: 10px 0;
+  border-radius: 20px;
+}
+
+#update {
+  background-color: rgb(44 125 168);
+}
+
+#delete {
+  background-color: rgb(156 55 55);
+}
