@@ -140,6 +140,7 @@ table {
 
 table th {
   text-transform: uppercase;
+  padding: 10px;
 }
 
 #update,
