@@ -19,7 +19,7 @@ body {
 .head {
   padding: 12px 30px;
   background-color: #555;
-  width: 40%;
+  width: fit-content;
   margin: 15px auto;
   border-radius: 8px;
   text-transform: uppercase;
