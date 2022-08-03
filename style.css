@@ -140,7 +140,7 @@ table {
 
 table th {
   text-transform: uppercase;
-  padding: 10px;
+  padding: 5px;
 }
 
 #update,
@@ -155,4 +155,16 @@ table th {
 
 #delete {
   background-color: rgb(156 55 55);
+}
+
+/*! Finally */
+@media (max-width: 767px) {
+  .cruds {
+    width: 167%;
+    margin-left: 13px;
+  }
+
+  table {
+    width: 100%;
+  }
 }
